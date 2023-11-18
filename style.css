@@ -122,3 +122,8 @@ button{
     margin-bottom: 0px;
 
 }
+.prime img{
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+}
