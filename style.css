@@ -134,3 +134,7 @@ button{
     bottom: 5px;
     left: 4px;
 }
+.lap{
+    position: relative;
+    right: 10px;
+}
