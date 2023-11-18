@@ -33,10 +33,10 @@ nav{
     display: flex;
     border-right: 0.5px solid gray;
     height: 35px;
-    position: relative;
-    left: 40px;
     align-items: center;
     color:black;
+    background-color:rgb(255, 255, 255);
+    border-radius: 4px 0px 0px 4px ;
 }
 pre{
     color: white;
@@ -54,12 +54,20 @@ a{
 }
 .prime{
     flex-direction: column;
+    justify-content:center;
     color: white;
     font-size: 20px;
+}
+.prime img{
+    position: relative;
+    bottom: 5px;
+    left: 4px;
 }
 section{
     width: 100%;
     position: relative;
+    background-image: url("assets/background\ picture.png");
+    background-repeat: no-repeat;
 }
 .flex{
     display: flex;
@@ -100,7 +108,7 @@ button{
     margin-left: 10px;
 }
 .sy{
-    border-radius: 0px 4px 0px 4px;
+    border-radius: 0px 4px 4px 0px;
 }
 .box a{
     color: blue;
