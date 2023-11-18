@@ -96,7 +96,6 @@ button{
     height: 40px;
     border: none;
     border-radius: 10px;
-    white-space: nowrap;
     background-color: yellow;
     margin-bottom: 20px;
 }
